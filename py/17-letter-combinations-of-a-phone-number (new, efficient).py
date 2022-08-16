@@ -13,7 +13,7 @@ class Solution(object):
         
         def backtrack(i, string):
             if len(string) == len(digits):
-                
+                # Recursive base case
                 output.append(string)
                 return
             for char in mapping[digits[i]]:
